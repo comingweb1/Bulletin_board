@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	}
+
+.row:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }
+/* close commented backslash hack */
+
+a{
+	text-decoration: none;
+}
+
+.header {
+
+}
+
+.content {
+	float: right;
+	width: 75%;
+	height: 700px;
+	margin: 10px;
+}
+
+.sidebar {
+	float: left;
+	width: 20%;
+	height: 300px;
+	margin: 10px;
+}
+
+.footer {
+	margin: 10px;
+	height: 100px;
+	text-align: center;
+	font-style: italic;
+}
+
+.logo-img{
+	width: 200px;
+	height: 130px;
+}
+
+.logoMain{
+	width: 500px;
+	height: 130px;
+	margin-left: 200px;
+}
+
+.login{
+	float: right;
+	border: 1px solid red;
+	margin: 20px 50px 0px 0px;
+}
+
+.logout{
+	float: right;
+	border: 1px solid red;
+	margin: 20px 50px 0px 0px;
+}
+
+.good{
+	width: 250px;
+	height: 300px;
+	margin: 10px;
+	padding: 5px;
+	display: inline-block;
+}
+
+.divGood{
+	width: 220px;
+	height: 230px;
+
+
+}
+
+.imgGood{
+	width: 200px;
+	height: 200px;
+}
+
+.nameGood{
+	text-align: center;
+}
+
+.prizeGood{
+	text-align: center;
+}
+
+.regForm{
+	margin-left: 250px;
+}
+
+.newGood{
+	width: 500px;
+	height: 500px;
+	margin-left: 300px;
+}
+
+.textzag{
+	font-size: 55px;
+	text-align: center;
+}
+
+.zagolovok {
+	text-align: center;
+}
+
+.profileContent{
+	text-align: center;
+}
